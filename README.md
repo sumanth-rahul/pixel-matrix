@@ -89,6 +89,13 @@ after converting the color image into black and white we again apply the
 for example: sample2 image,k=10
 ![image of bw compressed picture](project_screenshots/2bw_comp.png)
 
+In image compression and bw image compression it will give the analysis on the 
+orginal and compressed image.
+but for large values of k the size of the compressed image will be greater than 
+the orginal image the reason is mentioned in the note below
+
+> **NOTE:** While entering the percentage value, if the value is greater than approximately **13%**, the compressed image size may be greater than the original image size. This is because the original image is stored as `uint8`, while the compressed image is stored as `float32`. Therefore, enter a percentage value between **1% and 13%** to get a compressed image size smaller than the original image size.
+
 ### usage of filter 2D
 
 The 2D filter moves across the image and multiplies each
