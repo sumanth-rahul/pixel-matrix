@@ -99,13 +99,13 @@ obtain the new pixel value.
 ### 3.Image sharpening
 
 sharpen kernel:
-$$
+```math
  \begin{bmatrix} 
 -1 & -1 & -1 \\ 
 -1 & 9 & -1 \\ 
 -1 & -1 & -1 
 \end{bmatrix}
-$$
+```
 
 The values in the kernel determine how the surrounding
 pixels affect the current pixel. The kernel gives more
@@ -119,13 +119,13 @@ for example: sample2 image
 ### Edge detection
 
 edge_detection kernel:
-$$
+```math
  \begin{bmatrix} 
 -1 & -1 & -1 \\ 
 -1 & 8 & -1 \\ 
 -1 & -1 & -1 
 \end{bmatrix}
-$$
+```
 
 The values in the kernel are designed to detect changes
 in intensity between neighboring pixels. These changes
@@ -137,13 +137,13 @@ for example: sample2 image
 ### Gaussian Blur
 
 Gaussian_blur kernel:
-$$
+```math
  \begin{bmatrix} 
 1/9 & 1/9 & 1/9 \\ 
 1/9 & 1/9 & 1/9 \\ 
 1/9 & 1/9 & 1/9 
 \end{bmatrix}
-$$
+```
 
 The values in the kernel determine how much importance
 is given to the surrounding pixels. The kernel is designed
