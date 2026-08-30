@@ -158,16 +158,23 @@ for example: sample2 image
 ```text
 imagecompression/
 │
+├── project_screenshots/
+│   ├── 1comp.png
+│   ├── 2bw_comp.png
+│   ├── 3sharp.png
+│   ├── 4edge.png
+│   └── 5blur.png
+│
 ├── sample_images/
-│   ├── image1.jpg
-│   └── image2.jpg
+│   ├── sample1.jpg
+│   └── sample2.jpg
 │
 ├── blur.py
 ├── bw_comp.py
 ├── edge.py
 ├── image_compression.py
 ├── main.py
-├── sharpen.py
 ├── README.md
 ├── requirements.txt
+├── sharpen.py
 └── .gitignore
