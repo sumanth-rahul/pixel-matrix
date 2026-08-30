@@ -6,7 +6,7 @@ from blur import blur_image
 from edge import edge_image
 from sharpen import sharpen_image
 
-INPUT_IMAGE="/Users/sumanthrahul/Documents/imagecompression/sample_images/sample2.jpg"
+INPUT_IMAGE="sample_images/sample2.jpg"
 
 print("IMAGE OPERATIONS")
 print("1. Image Compression")
